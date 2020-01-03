@@ -49,12 +49,12 @@ export default class PersistentContainer extends EventEmitter {
 
     public update(key: string, eKey: string, value: any): boolean {
         const entry = this.map.get(key);
-        if (entry && typeof entry[eKey] !== undefined) {
+        if (entry && Object.keys(entry).includes(eKey)) {
             entry[eKey] = value;
             this.map.set(key, entry);
             this.emit('update', key, eKey, value);
             return true;
-        } else if (entry && typeof entry[eKey] === undefined) {
+        } else if (entry && !Object.keys(entry).includes(eKey)) {
             throw new Error(`${eKey} does not exist on entry ${eKey}`);
         } else return false;
     }
