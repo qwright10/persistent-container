@@ -1,0 +1,27 @@
+{
+  "name": "persistentcontainer",
+  "version": "1.0.0",
+  "description": "A Foundation-like persistent container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwright10/persistent-container.git"
+  },
+  "author": "Quentin Wright <wrightq00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwright10/persistent-container/issues"
+  },
+  "homepage": "https://github.com/qwright10/persistent-container#readme",
+  "devDependencies": {
+    "@types/mongoose": "^5.5.38",
+    "@types/node": "^13.1.2",
+    "tslib": "^1.10.0"
+  },
+  "dependencies": {
+    "mongoose": "^5.8.4"
+  }
+}
