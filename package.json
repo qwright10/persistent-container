@@ -18,7 +18,7 @@
   "homepage": "https://github.com/qwright10/persistent-container#readme",
   "devDependencies": {
     "@types/mongoose": "^5.5.38",
-    "@types/node": "^13.1.2",
+    "@types/node": "^14.0.1",
     "tslib": "^1.10.0"
   },
   "dependencies": {
