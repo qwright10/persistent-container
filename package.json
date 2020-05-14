@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/mongoose": "^5.5.38",
     "@types/node": "^13.1.2",
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   },
   "dependencies": {
     "mongoose": "^5.8.4"
